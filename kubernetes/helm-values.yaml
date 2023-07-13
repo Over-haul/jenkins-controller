@@ -21,45 +21,45 @@ additionalAgents:
     podName: jdk
     customJenkinsLabels: jdk
     image: public.ecr.aws/e5r9m0c5/jenkins-jdk
-    tag: v1.0.2
+    tag: v1.0.4
   nodejs:
     podName: nodejs
     customJenkinsLabels: nodejs
     image: public.ecr.aws/e5r9m0c5/jenkins-nodejs
-    tag: v1.0.2
+    tag: v1.0.4
   python37:
     podName: python37
     customJenkinsLabels: python37
     image: public.ecr.aws/e5r9m0c5/jenkins-python37
-    tag: v1.0.2
+    tag: v1.0.4
   python38:
     podName: python38
     customJenkinsLabels: python38
     image: public.ecr.aws/e5r9m0c5/jenkins-python38
-    tag: v1.0.2
+    tag: v1.0.4
   python39:
     podName: python39
     customJenkinsLabels: python39
     image: public.ecr.aws/e5r9m0c5/jenkins-python39
-    tag: v1.0.2
+    tag: v1.0.4
   ruby:
     podName: ruby
     customJenkinsLabels: ruby
     image: public.ecr.aws/e5r9m0c5/jenkins-ruby
-    tag: v1.0.2
+    tag: v1.0.4
   ruby-jemalloc:
     podName: ruby-jemalloc
     customJenkinsLabels: ruby-jemalloc
     image: public.ecr.aws/e5r9m0c5/jenkins-ruby-jemalloc
-    tag: v1.0.2
+    tag: v1.0.4
   ruby-truffle:
     podName: ruby-truffle
     customJenkinsLabels: ruby-truffle
     image: public.ecr.aws/e5r9m0c5/jenkins-ruby-truffle
-    tag: v1.0.2
+    tag: v1.0.4
 controller:
   image: public.ecr.aws/e5r9m0c5/jenkins-controller
-  tag: v1.0.2
+  tag: v1.0.3
   imagePullPolicy: IfNotPresent
   adminSecret: false
   enableRawHtmlMarkupFormatter: true
