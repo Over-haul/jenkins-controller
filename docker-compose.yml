@@ -12,7 +12,7 @@ services:
       - LDAP_USERS=user01,user02
       - LDAP_PASSWORDS=password1,password2
   jenkins:
-    image: public.ecr.aws/e5r9m0c5/jenkins-controller:v1.0.3
+    image: public.ecr.aws/e5r9m0c5/jenkins-controller:v1.0.4
     build:
       context: .
     user: "root:root"
