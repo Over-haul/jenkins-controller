@@ -59,7 +59,7 @@ additionalAgents:
     tag: v1.0.4
 controller:
   image: public.ecr.aws/e5r9m0c5/jenkins-controller
-  tag: v1.0.3
+  tag: v1.0.4
   imagePullPolicy: IfNotPresent
   adminSecret: false
   enableRawHtmlMarkupFormatter: true
